@@ -11,10 +11,10 @@
 }
 
 :root {
-    --color-bg: #0CF574;
-    --color-bg-variant: #333;
-    --color-primary: #15e6cd;
-    --color-primary-variant: #7c98b3;
+    --color-primary: #0CF574;
+    --color-secondary: #333;
+    --color-tertiary: #FBFBFB;
+    --color-tertiary-variant: #EB8A90;
     --color-white: #ffff; 
     --color-light: rgba(255,255,255, 0.6);
 
@@ -35,8 +35,8 @@ html {
 
 body {
     font-family: "Poppins", sans-serif;
-    background: var(--color-bg);
-    color: var(--color-bg-variant);
+    background: var(--color-primary);
+    color: var(--color-secondary);
     line-height: 1.7;
     background-image: url(../src/assets2/bg-texture.png);
 }
@@ -57,6 +57,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -86,23 +87,24 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary-variant);
+    color: var(--color-secondary);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary-variant);
+    border: 2px solid var(--color-secondary);
     transition: var(--transition);
 }
 
 .btn:hover {
-    background: var(--color-white);
-    color: var(--color-bg);
+    background: var(--color-primary);
+    background-image: url(../src/assets2/bg-texture.png);
+    color: var(--color-secondary);
     border-color: transparent;
 }
 
 .btn-primary {
-    background: var(--color-primary-variant);
-    color: var(--color-bg);
+    background: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 img {
