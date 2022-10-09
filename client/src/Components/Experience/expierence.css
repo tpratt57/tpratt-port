@@ -2,11 +2,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    color: var(--color-tertiary);
+    color: var(--color-white);
 }
 
 .expierience__container > div {
-    background: var(--color-tertiary-variant);
+    background: var(--color-quaternary);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -14,15 +14,16 @@
 }
 
 .expierience__container > div:hover {
-    background: transparent;
-    border-color: var(--color-primary);
+    background: var(--color-tertiary);
+    border-color: var(--color-tertiary);
+    background-image: url(../../assets2/bg-texture.png);
     cursor: default;
 }
 
 .expierience__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-secondary);
+    color: var(--color-white);
 }
 
 .expierience__content {
@@ -38,8 +39,9 @@
 
 .expierence__details-icons {
     margin-top: 6px;
-    color: var(--color-tertiary);
+    color: var(--color-white);
 }
+
 
 /* ============================ MEDIA QUERIES (MEDIUM DEVICES) ======================= */
 

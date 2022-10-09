@@ -1,5 +1,5 @@
 .about {
-    color: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 .about__container{
@@ -12,7 +12,7 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-tertiary-variant), transparent );
+    background: linear-gradient(45deg, transparent, var(--color-quaternary), transparent );
     display: grid;
     place-items: center;
 }
@@ -35,22 +35,24 @@
 }
 
 .about__card {
-    background: linear-gradient(55deg, var(--color-primary), var(--color-tertiary-variant), transparent var(--color-tertiary), transparent);
+    background: var(--color-quaternary);
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    color: var(--color-white);
 }
 
 .about__card:hover {
-    background: transparent;
-    border-color: var(--color-bg-variant);
+    background: var(--color-tertiary);
+    background-image: url(../../assets2/bg-texture.png);
+    border-color: var(--color-tertiary);
     cursor: default;
 }
 
 .about__icon {
-    color: var(--color-secondary);
+    color: var(--color-white);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -61,12 +63,12 @@
 
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-secondary);
+    color: var(--color-white);
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-secondary);
+    color: var(--color-quaternary);
 }
 
 /* ============================ MEDIA QUERIES (MEDIUM DEVICES) ======================= */

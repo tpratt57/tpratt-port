@@ -28,11 +28,11 @@ nav a:hover {
 }
 
 nav a.active {
-    background: var(--color-secondary);
+    background: var(--color-quaternary);
     color: var(--color-light);
 }
 
 nav a.active {
-    background: var(--color-secondary);
+    background: var(--color-quaternary);
     color: var(--color-white);
 }

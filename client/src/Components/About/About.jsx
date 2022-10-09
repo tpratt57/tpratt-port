@@ -36,8 +36,8 @@ const About = () => {
               <h5> Projects </h5>
               <small> 4 Completed Projects </small>
             </article>
-
-            <p>
+          </div>
+          <p>
               Amet luctus venenatis lectus magna fringilla urna.
               Hendrerit dolor magna eget est lorem ipsum dolor sit.
               Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere.
@@ -47,8 +47,8 @@ const About = () => {
               Risus at ultrices mi tempus imperdiet nulla malesuada.
               Ultrices sagittis orci a scelerisque purus.
               Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum.
-              Id velit ut tortor pretium viverra.</p>
-          </div>
+              Id velit ut tortor pretium viverra.
+              </p>
         </div>
       </div>
     </section>
