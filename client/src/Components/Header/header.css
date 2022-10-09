@@ -35,12 +35,12 @@ header {
     content: '';
     width: 1px;
     height: 2rem;
-    background: var(--color-bg-variant);
+    background: var(--color-quaternary);
 }
 
 /* =============== ME ================ */
 .me {
-    background: linear-gradient(var(--color-bg-variant), transparent);
+    background: linear-gradient(var(--color-quaternary), transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;

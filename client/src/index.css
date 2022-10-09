@@ -11,10 +11,11 @@
 }
 
 :root {
-    --color-bg: #0CF574;
-    --color-bg-variant: #333;
-    --color-primary: #15e6cd;
-    --color-primary-variant: #7c98b3;
+    --color-primary: #5cdb95;
+    --color-secondary: #8ee4af;
+    --color-tertiary: #379683;
+    --color-tertiary-variant: #edf5e1;
+    --color-quaternary: #05386b;
     --color-white: #ffff; 
     --color-light: rgba(255,255,255, 0.6);
 
@@ -35,8 +36,8 @@ html {
 
 body {
     font-family: "Poppins", sans-serif;
-    background: var(--color-bg);
-    color: var(--color-bg-variant);
+    background: var(--color-primary);
+    color: var(--color-quaternary);
     line-height: 1.7;
     background-image: url(../src/assets2/bg-texture.png);
 }
@@ -57,16 +58,17 @@ h1 {
 
 section {
     margin-top: 8rem;
+
 }
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-quaternary);
 
 }
 
 section > h2 {
-    color: var(--color-primary);
+    color: var(--color-quaternary);
     margin-bottom: 3rem;
 }
 
@@ -75,7 +77,7 @@ section > h2 {
 }
 
 a {
-    color: var(--color-bg-variant);
+    color: var(--color-quaternary);
     transition: var(--transition);
 }
 
@@ -86,23 +88,24 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary-variant);
+    color: var(--color-tertiary-variant);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary-variant);
+    border: 2px solid var(--color-quaternary);
     transition: var(--transition);
 }
 
 .btn:hover {
-    background: var(--color-white);
-    color: var(--color-bg);
+    background: var(--color-quaternary);
+    background-image: url(../src/assets2/bg-texture.png);
+    color: var(--color-white);
     border-color: transparent;
 }
 
 .btn-primary {
-    background: var(--color-primary-variant);
-    color: var(--color-bg);
+    background: var(--color-quaternary);
+    color: var(--color-tertiary-variant);
 }
 
 img {
@@ -117,7 +120,7 @@ img {
 
 /* ============================ MEDIA QUERIES (MEDIUM DEVICES) ======================= */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1199px) {
     .container {
         width: var(--container-width-md);
     }
