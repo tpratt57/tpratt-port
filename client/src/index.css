@@ -88,7 +88,7 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-quaternary);
+    color: var(--color-tertiary-variant);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -97,7 +97,7 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--color-tertiary);
+    background: var(--color-quaternary);
     background-image: url(../src/assets2/bg-texture.png);
     color: var(--color-white);
     border-color: transparent;
@@ -105,7 +105,7 @@ a:hover {
 
 .btn-primary {
     background: var(--color-quaternary);
-    color: var(--color-primary);
+    color: var(--color-tertiary-variant);
 }
 
 img {
