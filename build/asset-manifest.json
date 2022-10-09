@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tpratt-port/static/css/main.0f292a1c.css",
+    "main.js": "/tpratt-port/static/js/main.e5534c6a.js",
+    "static/media/Snapchat-1658935006.png": "/tpratt-port/static/media/Snapchat-1658935006.a9f57e613af114d27352.png",
+    "static/media/Desktop Screenshot 2022.06.16 - 18.06.57.24.png": "/tpratt-port/static/media/Desktop Screenshot 2022.06.16 - 18.06.57.24.832983549a28ee877b46.png",
+    "static/media/f186d1__mv2.gif": "/tpratt-port/static/media/f186d1_8a28db63b7574babb9854cfd0805842e_mv2.d06aef5c23638550cb8d.gif",
+    "static/media/Desktop Screenshot 2022.10.09 - 02.00.11.45.png": "/tpratt-port/static/media/Desktop Screenshot 2022.10.09 - 02.00.11.45.2a5f5240d7372ff2f0f6.png",
+    "static/media/cv.pdf": "/tpratt-port/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/Desktop Screenshot 2022.08.11 - 21.01.54.95.png": "/tpratt-port/static/media/Desktop Screenshot 2022.08.11 - 21.01.54.95.8527398e833e6989c67d.png",
+    "static/media/Desktop Screenshot 2022.10.06 - 17.45.57.39.png": "/tpratt-port/static/media/Desktop Screenshot 2022.10.06 - 17.45.57.39.24090815806ac3c7aa9c.png",
+    "static/media/me-about.jpg": "/tpratt-port/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "index.html": "/tpratt-port/index.html",
+    "main.0f292a1c.css.map": "/tpratt-port/static/css/main.0f292a1c.css.map",
+    "main.e5534c6a.js.map": "/tpratt-port/static/js/main.e5534c6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f292a1c.css",
+    "static/js/main.e5534c6a.js"
+  ]
+}
