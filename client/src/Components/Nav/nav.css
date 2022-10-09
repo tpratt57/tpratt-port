@@ -33,6 +33,6 @@ nav a.active {
 }
 
 nav a.active {
-    background: var(--color-quaternary);
+    background: var(--color-primary);
     color: var(--color-white);
 }

@@ -45,7 +45,7 @@
 }
 
 .about__card:hover {
-    background: var(--color-tertiary);
+    background: var(--color-quaternary);
     background-image: url(../../assets2/bg-texture.png);
     border-color: var(--color-tertiary);
     cursor: default;

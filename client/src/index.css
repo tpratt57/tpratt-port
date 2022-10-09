@@ -11,11 +11,11 @@
 }
 
 :root {
-    --color-primary: #5fdd9d;
-    --color-secondary: #036d19;
-    --color-tertiary: #db995a;
-    --color-tertiary-variant: #c6ac8f;
-    --color-quaternary: #020122;
+    --color-primary: #5cdb95;
+    --color-secondary: #8ee4af;
+    --color-tertiary: #379683;
+    --color-tertiary-variant: #edf5e1;
+    --color-quaternary: #05386b;
     --color-white: #ffff; 
     --color-light: rgba(255,255,255, 0.6);
 

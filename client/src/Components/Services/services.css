@@ -5,7 +5,7 @@
 }
 
 .service {
-    background: var(--color-tertiary);
+    background: var(--color-quaternary);
     border-radius: 0 0 2rem 2rem;
     border: 1px solid var(--color-tertiary);
     height: fit-content;
@@ -22,7 +22,7 @@
 }
 
 .service__head {
-    background: var(--color-tertiary-variant);
+    background: var(--color-quaternary);
     padding: 2rem;
     border-radius: 0 0 2rem 2rem;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
